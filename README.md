@@ -1,7 +1,5 @@
 # Forkast - Smart Meal Planner 🍱
 
-# Forkast – Smart Meal Planner 🍽️📊
-
 Forkast is a data-driven meal planning application designed to support user decision-making through structured data intake, processing, and analysis.
 
 Rather than focusing only on recommendations, this project emphasizes how user input data can be collected, stored, inspected, and interpreted to inform personalized outcomes.
