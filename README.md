@@ -1,4 +1,4 @@
-# Forkast - Smart Meal Planner 🍱
+# Forkast - Smart Meal Planner 
 
 Forkast is a data-driven meal planning application designed to support user decision-making through structured data intake, processing, and analysis.
 
@@ -46,9 +46,9 @@ docker-compose up --build
 
 ---
 
-## 🚀 How to Run the App
+## How to Run the App
 
-### 📁 Step 1: Open Terminal and Navigate to Project
+###  Step 1: Open Terminal and Navigate to Project
 
 ```bash
 cd path/to/forkast
@@ -56,7 +56,7 @@ cd path/to/forkast
 cd "C:\Users\\Desktop\forkast"
 
 
-🐳 Step 2: Start All Services
+ Step 2: Start All Services
 
 docker-compose up --build
 
@@ -66,12 +66,12 @@ For normal runs, just use:
 docker-compose up
 
 
-🧪 Step 3: Test Flask API
+Step 3: Test Flask API
 curl -X POST http://localhost:5000/upload-groceries ^
   -H "Content-Type: application/json" ^
   -d "{\"ingredients\": [\"rice\", \"tofu\"], \"dietary_preferences\": [\"vegan\"], \"budget\": 25}"
 
-🧭 Step 4: View Data in MongoDB Compass
+ Step 4: View Data in MongoDB Compass
 Connection: mongodb://localhost:27017
 
 Database: forkast
@@ -79,7 +79,7 @@ Database: forkast
 Collection: user_inputs
 Click the 🔄 refresh icon to see new documents.
 
-🛑 Step 5: Stop Everything
+ Step 5: Stop Everything
 To stop the app:
 
 Ctrl + C
